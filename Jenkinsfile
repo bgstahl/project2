@@ -16,7 +16,7 @@ pipeline {
 
                 docker build -t bgstahl/project2:latest .
 
-                docker login -u "bgstahl" -p "Lux2lumens" docker.io
+                docker login -u "bgstahl" -p "2wsx#EDC4rfv" docker.io
 
                 docker push bgstahl/project2:latest
 
