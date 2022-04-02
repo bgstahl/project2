@@ -12,7 +12,6 @@ pipeline {
 				“””
 			}
 		}
-        }
 		stage('Create Docker Container') {
 			steps {
 				sh “””                
