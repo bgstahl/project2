@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+
+  compose-test:
+
+    image: bgstahl/project2:latest
